@@ -8,10 +8,10 @@
     <string name="search">Pencarian</string>
 
     <string-array name="data_name">
-        <item>Halis Uciha</item>
-        <item>Uciha Itachi</item>
-        <item>Kakasi Hatake</item>
-        <item>Rocklee</item>
+        <item>Gunung Merbabu</item>
+        <item>Gunung Semeru</item>
+        <item>Gunung Prau</item>
+        <item>Gunung Rinjani</item>
         <item>Sakura</item>
         <item>Naruto</item>
         <item>Obito</item>
@@ -32,10 +32,10 @@
     </string-array>
 
     <integer-array name="data_photo">
-        <item>@drawable/gunung_merbabu</item>
-        <item>@drawable/itachi</item>
-        <item>@drawable/kakashi</item>
-        <item>@drawable/rock_lee</item>
+        <item>@drawable/i_merbabu</item>
+        <item>@drawable/i_semeru</item>
+        <item>@drawable/i_prau</item>
+        <item>@drawable/i_rinjani</item>
         <item>@drawable/shikamaru</item>
         <item>@drawable/naruto</item>
         <item>@drawable/obito</item>
@@ -45,10 +45,10 @@
 
 
     <array name="video_id">
-        <item>@raw/anime4</item>
         <item>@raw/v_merbabu</item>
-        <item>@raw/v_merbabu</item>
-        <item>@raw/v_merbabu</item>
+        <item>@raw/v_semeru</item>
+        <item>@raw/v_prau</item>
+        <item>@raw/v_rinjani</item>
         <item>@raw/v_merbabu</item>
         <item>@raw/v_merbabu</item>
         <item>@raw/v_merbabu</item>
@@ -59,8 +59,8 @@
     <array name="audio_id">
         <item>@raw/a_merbabu</item>
         <item>@raw/a_semeru</item>
-        <item>@raw/a_semeru</item>
-        <item>@raw/a_semeru</item>
+        <item>@raw/a_prau</item>
+        <item>@raw/a_kerinci</item>
         <item>@raw/a_semeru</item>
         <item>@raw/a_semeru</item>
         <item>@raw/a_semeru</item>

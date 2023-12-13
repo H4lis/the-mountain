@@ -16,6 +16,9 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
+
+
+
         val hero: Hero? = intent.getParcelableExtra("HERO_DATA")
 
         if (hero != null) {
