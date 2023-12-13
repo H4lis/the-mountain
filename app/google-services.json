@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5761469138",
+    "project_id": "themountain-817b6",
+    "storage_bucket": "themountain-817b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5761469138:android:f5993744528c5e463e7b0b",
+        "android_client_info": {
+          "package_name": "com.dicoding.myrecyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVd5rD-3t_zhzCST4ZkwY6Vs3NweP6Byc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

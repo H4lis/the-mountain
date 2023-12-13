@@ -26,10 +26,13 @@ class DetailActivity : AppCompatActivity() {
             val tv_judul: TextView = findViewById(R.id.tv_Judul)
             val tv_desc: TextView = findViewById(R.id.tv_description)
             val playButton: ImageView = findViewById(R.id.tombol_play)
-            val btnPlayAudio: Button = findViewById(R.id.btn_play_audio)
+
+            val imgPlay: ImageView = findViewById(R.id.imgPlay)
+            val tv_name: TextView = findViewById(R.id.tv_namespo)
 
             imgphoto.setImageResource(hero.photo)
             tv_judul.text = hero.name
+            tv_name.text = hero.name
             tv_desc.text = hero.description
             playButton.setOnClickListener {
                 val videoIntent = Intent(this, VideoActivity::class.java)
@@ -40,14 +43,16 @@ class DetailActivity : AppCompatActivity() {
             // Inisialisasi MediaPlayer
             mediaPlayer = MediaPlayer.create(this, hero.audioId) // Menggunakan audioId dari objek Hero
 
-            btnPlayAudio.setOnClickListener {
+            imgPlay.setOnClickListener {
                 if (mediaPlayer != null) {
                     if (!mediaPlayer!!.isPlaying) {
                         mediaPlayer!!.start()
-                        btnPlayAudio.text = "Stop Audio"
+                        imgPlay.setImageResource(R.drawable.ic_pause)
+
                     } else {
                         mediaPlayer!!.pause()
-                        btnPlayAudio.text = "Play Audio"
+
+                        imgPlay.setImageResource(R.drawable.ic_play2)
                     }
                 }
             }
@@ -55,7 +60,6 @@ class DetailActivity : AppCompatActivity() {
             // Handle kasus ketika intent tidak memiliki data HERO_DATA
         }
     }
-
     override fun onDestroy() {
         super.onDestroy()
         mediaPlayer?.release()

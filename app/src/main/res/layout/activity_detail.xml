@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/tombol_play"
         android:layout_width="70dp"
@@ -29,21 +30,89 @@
         app:layout_constraintTop_toTopOf="@+id/img_gambar" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:padding="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_gambar">
 
-        <Button
-            android:id="@+id/btn_play_audio"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Play Audio"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tombol_play" />
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Dengarkan juga Podcastnya"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:id="@+id/card_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:src="@drawable/spotify" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Cerita Seru di  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_namespo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Gunung Merabu"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgPlay"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="20dp"
+
+
+                android:src="@drawable/ic_pause"/>
+
+
+
+
+        </LinearLayout>
+
+
         <TextView
             android:id="@+id/tv_Judul"
             android:layout_width="wrap_content"
@@ -59,12 +128,12 @@
         <TextView
             android:id="@+id/tv_description"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:gravity="center"
-            android:textColor="@color/black"
+            android:layout_height="match_parent"
+
+            android:textColor="@color/grey"
             tools:text="@string/description" />
     </LinearLayout>
+
 
 
 
