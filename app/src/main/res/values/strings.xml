@@ -7,17 +7,7 @@
     <string name="grid">Grid</string>
     <string name="search">Pencarian</string>
 
-    <string-array name="data_name">
-        <item>Gunung Merbabu</item>
-        <item>Gunung Semeru</item>
-        <item>Gunung Prau</item>
-        <item>Gunung Rinjani</item>
-        <item>Sakura</item>
-        <item>Naruto</item>
-        <item>Obito</item>
-        <item>Sikamaru</item>
-        <item>Jiraiya</item>
-    </string-array>
+
 
     <string-array name="data_description">
         <item>seorang mahsiswa genin dari desa Konohagakure, terkenal dengan kecerdasannya yang luar biasa dan keahlian taktisnya yang menonjol. Meskipun sikapnya terlihat malas dan cenderung santai, Shikamaru memiliki potensi besar sebagai seorang strategi. Ia adalah anggota Tim 10 bersama Ino Yamanaka dan Choji Akimichi di bawah bimbingan Jonin Asuma Sarutobi. Keterampilan khasnya terletak pada penguasaan teknik bayangan, yang memungkinkannya mengendalikan bayangan lawan dengan bayangan miliknya sendiri.</item>
@@ -31,16 +21,29 @@
         <item>meninggal di Jakarta, 12 September 1958 pada umur 55 tahun) adalah seorang pahlawan nasional Indonesia. Soepomo dikenal sebagai arsitek Undang-undang Dasar 1945, bersama dengan Muhammad Yamin dan Soekarno.</item>
     </string-array>
 
+    <string-array name="data_name">
+        <item>Gunung Merbabu</item>
+        <item>Gunung Semeru</item>
+        <item>Gunung Prau</item>
+        <item>Gunung Rinjani</item>
+        <item>Gunung Arjuno</item>
+        <item>Gunung Cartenz</item>
+        <item>Gunung Sindoro</item>
+        <item>Gunung Bromo</item>
+        <item>Gunung Sumbing</item>
+
+    </string-array>
+
     <integer-array name="data_photo">
         <item>@drawable/i_merbabu</item>
         <item>@drawable/i_semeru</item>
         <item>@drawable/i_prau</item>
         <item>@drawable/i_rinjani</item>
-        <item>@drawable/shikamaru</item>
-        <item>@drawable/naruto</item>
-        <item>@drawable/obito</item>
-        <item>@drawable/shikamaru</item>
-        <item>@drawable/jiraiya</item>
+        <item>@drawable/i_arjuno</item>
+        <item>@drawable/i_cartenz</item>
+        <item>@drawable/i_sindoro</item>
+        <item>@drawable/i_bromo</item>
+        <item>@drawable/i_sumbing</item>
     </integer-array>
 
 
@@ -50,10 +53,10 @@
         <item>@raw/v_prau</item>
         <item>@raw/v_rinjani</item>
         <item>@raw/v_merbabu</item>
-        <item>@raw/v_merbabu</item>
-        <item>@raw/v_merbabu</item>
-        <item>@raw/v_merbabu</item>
-        <item>@raw/v_merbabu</item>
+        <item>@raw/v_semeru</item>
+        <item>@raw/v_prau</item>
+        <item>@raw/v_rinjani</item>
+        <item>@raw/v_rinjani</item>
     </array>
 
     <array name="audio_id">
@@ -61,11 +64,12 @@
         <item>@raw/a_semeru</item>
         <item>@raw/a_prau</item>
         <item>@raw/a_kerinci</item>
+        <item>@raw/a_merbabu</item>
         <item>@raw/a_semeru</item>
-        <item>@raw/a_semeru</item>
-        <item>@raw/a_semeru</item>
-        <item>@raw/a_semeru</item>
-        <item>@raw/a_semeru</item>
+        <item>@raw/a_prau</item>
+        <item>@raw/a_kerinci</item>
+        <item>@raw/a_merbabu</item>
+
     </array>
 
 
